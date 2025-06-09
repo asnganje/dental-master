@@ -6,7 +6,96 @@
   <title>Dental Master Site</title>
   <link rel="stylesheet" href="../assets/css/tailwind-output.css" />
 </head>
-<body>
-  <p class="text-red-500 font-bold italic px-2">Hey</p>
+<body class="bg-gray-100 py-10 text-[15px] font-sans-serif">
+    <nav class="sticky top-0 z-50 flex bg-white items-center justify-between tracking-tighter w-[80vw] md:w-[80vw] sm:w-[90vw] xs:w-full xxs:w-full mx-auto xxs:mx-0 p-3 mb-5 rounded-full xs:rounded-none xxs:rounded-none shadow-md">
+      <div class="">
+        <img src="../assets/compatto-logo.svg" alt="company logo" class="md:h-5 cursor-pointer">
+      </div>
+      <div class="xs:hidden block">
+        <ul class="flex gap-5">
+          <li class="cursor-pointer hover:underline hover:decoration-amber-800 hover:underline-offset-4">
+            <a href="#">Who we are</a>
+          </li>
+          <li class="cursor-pointer hover:underline hover:decoration-amber-800 hover:underline-offset-4">
+            <a href="#">The challenges</a>
+          </li>
+          <li class="cursor-pointer hover:underline hover:decoration-amber-800 hover:underline-offset-4">
+            <a href="#">Our process</a>
+          </li>
+          <li class="cursor-pointer hover:underline hover:decoration-amber-800 hover:underline-offset-4">
+            <a href="#">Why choose us</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="bg-[#C19A6B] hover:bg-gray-100 xs:hidden block hover:text-gray-950 hover:outline hover:outline-2 hover:outline-black  text-white font-semibold p-2 rounded-md">
+        Contact us
+      </button>
+      <button type="button" class="hidden xs:block">
+        <svg xmlns="http://www.w3.org/2000/svg"
+          fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor"
+          class="sm:block lg:hidden size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </nav>
+    <section class="h-[500px] xs:min-h-screen xxs:min-h-screen">
+      <div class="relative xs:static xxs:static bg-[url('/assets/furnish1.jpg')] bg-cover w-[80%] xs:flex xxs:flex xs:flex-col xxs:flex-col xs:justify-end xxs:justify-end xs:w-full xxs:w-full mx-auto h-full rounded-2xl xs:rounded-none xxs:rounded-none xs:pl-5 xxs:pl-5 xxs:pb-10 xs:pb-10 xxs:pb-10">
+        <div class="absolute xs:static xxs:static bottom-20 flex flex-row xs:flex-col xxs:flex-col items-center xs:items-stretch xxs:items-stretch justify-between w-full px-10 xs:px-0 xxs:px-0">
+          <div class="w-1/2 xs:w-full  xxs:w-full pl-10 xs:pl-0 xxs:pl-0">
+            <h2 class="capitalize text-white font-semibold xs:font-normal xxs:font-normal xs:tracking-tighter xxs:tracking-tighter text-4xl">
+              <span class="block">Bringing simplicity</span>
+              <span class="block">in the furnishing market</span>
+            </h2>
+          </div>
+          <div class="w-1/2 xs:flex xs:flex xs:flex-col xxs:flex xxs:flex-col xs:w-full xs:w-full pl-10 xs:pl-0 xxs:pl-0">
+            <p class="text-gray-200 font-semibold mb-1">
+              <span class="block">Compatto simplifies the complex process of </span>
+              <span class="block">furnishing all-inclusive, boutique and high-end hotels,</span>
+              <span class="block">luxury residences in Greece and Cyprus.</span> 
+            </p>
+            <button type="button" class="text-gray-700 bg-white rounded-md p-2 xs:w-[50vw] xxs:w-[70vw]">
+              Start Your Furnishing Journey
+            </button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <footer class="w-[80%] sm:w-full xs:w-full xx:w-full my-10 mx-auto min-h-[50vh] px-10">
+      <div class="flex flex-row xs:flex xxs:flex xs:flex-col xxs:flex-col justify-between gap-5 h-full">
+        <div class="flex flex-col justify-between gap-10 w-1/3 xs:w-full xxs:w-full size-60 xs:size-100 xxs:size-100 sm:size-150 my-10 p-4 bg-[#C19A6B]  rounded-md">
+          <div class="flex justify-between text-white">
+            <p class="uppercase">our company<br/> in numbers</p>
+            <img src="../assets/compatto-icon.svg" class="size-10" alt="">
+          </div>
+          <div class="flex justify-between gap-10 text-white">
+            <p class="text-sm w-1/2">
+              <span class="block">150+</span>
+              <span class="block">Furniture Suppliers</span>
+            </p>
+            <p class="text-sm">
+              <span class="block">15+</span>
+              <span class="block">Years of Industry Experience</span>
+            </p>
+          </div>
+        </div>
+        <div class="w-2/3 xs:w-full xxs:w-full">
+          <div class="flex xs:flex-col xxs:flex-col items-center justify-between h-60 xs:h-full xxs:h-full my-10 bg-[#efebe2] rounded-lg gap-8">
+            <div class="flex flex-col gap-3 w-2/3 xs:w-full xxs:w-full sm:w-full p-4">
+              <h3 class="font-semibold">Who <span class="text-[#C19A6B]">We</span> Are</h3>
+              <p>At Compatto, we understand the challenges of creating exceptional spaces that blend elegance, quality, and functionality.</p>
+              <p>As Greece’s premier furniture solutions provider, we’ve made it our mission to simplify the furnishing process, ensuring that every project is executed flawlessly from initial consultation to final installation.</p>
+            </div>
+            <div class="relative xs:static xxs:static xxs:hidden xs:hidden sm:hidden flex h-full w-1/3 rounded-r-md">
+              <div class="absolute  xs:static xxs:static top-0 left-0 w-full h-full rounded-l-full bg-[#d6cfc0] z-0 rounded-r-md"></div>
+              <div class="h-full w-full pl-4 rounded-l-full overflow-hidden z-50 rounded-r-md">
+                <img src="../assets/book-reader.webp" alt="" class="w-full h-full rounded-l-full object-cover rounded-r-md">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
